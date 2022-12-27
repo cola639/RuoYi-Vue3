@@ -20,7 +20,7 @@
 ## 前端运行
 
 ```bash
-# 克隆项目
+# 克隆
 git clone https://github.com/yangzongzhuan/RuoYi-Vue3.git
 
 # 进入项目目录
