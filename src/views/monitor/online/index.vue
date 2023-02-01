@@ -87,14 +87,13 @@
 <script setup name="Online">
 import { forceLogout, list as initData } from '@/api/monitor/online'
 
-const { proxy } = getCurrentInstance()
+const { proxy } = getCurrentInstance() // 取代 this实例
 
 const onlineList = ref([])
 const loading = ref(true)
 const total = ref(0)
 const pageNum = ref(1)
 const pageSize = ref(10)
-
 const queryParams = ref({
   ipaddr: undefined,
   userName: undefined
